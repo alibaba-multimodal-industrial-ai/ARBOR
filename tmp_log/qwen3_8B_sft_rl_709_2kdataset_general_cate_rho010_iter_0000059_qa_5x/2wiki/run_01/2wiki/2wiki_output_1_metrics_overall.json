@@ -1,0 +1,18 @@
+{
+    "em": 0.625,
+    "acc": 0.685,
+    "f1": 0.6965764235764236,
+    "math_equal": 0.625,
+    "num_valid_answer": "200 of 200",
+    "tool_productivity": 66.33075435203094,
+    "average_datas_used_tool_number": 1.0,
+    "tool_call": 2.485,
+    "average_tool_tag_count": 2.52,
+    "average_python_calls": 0.0,
+    "average_search_calls": 2.485,
+    "average_executed_search_calls": 2.485,
+    "average_search_tag_count": 2.52,
+    "llm_equal": 0.69,
+    "m1m2": 66.33075435203094,
+    "datetime": "2026-07-11 21:22:38"
+}

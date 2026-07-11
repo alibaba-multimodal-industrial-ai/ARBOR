@@ -1,0 +1,39 @@
+Model output file path: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_131628/qwen3_8B_sft_rl_710_hybrid_common_query_2kdataset_general_cate_4gpu_iter_0000059_qa_5x/2wiki/run_03/2wiki/2wiki_output_1.json
+Loading data...
+Data loading completed. Total 200 samples. Time taken: 0.95 seconds
+Detailed metrics path: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_131628/qwen3_8B_sft_rl_710_hybrid_common_query_2kdataset_general_cate_4gpu_iter_0000059_qa_5x/2wiki/run_03/2wiki/2wiki_output_1_metrics.json
+Overall metrics path: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_131628/qwen3_8B_sft_rl_710_hybrid_common_query_2kdataset_general_cate_4gpu_iter_0000059_qa_5x/2wiki/run_03/2wiki/2wiki_output_1_metrics_overall.json
+Starting evaluation of 200 samples, task type: qa
+Evaluating samples:   0%|          | 0/200 [00:00<?, ?it/s]Evaluating samples:   0%|          | 1/200 [00:00<01:54,  1.74it/s]Evaluating samples:   4%|▎         | 7/200 [00:00<00:14, 12.98it/s]Evaluating samples:   8%|▊         | 17/200 [00:00<00:05, 30.89it/s]Evaluating samples:  18%|█▊        | 35/200 [00:00<00:02, 64.50it/s]Evaluating samples:  23%|██▎       | 46/200 [00:01<00:02, 70.43it/s]Evaluating samples:  28%|██▊       | 56/200 [00:01<00:02, 64.19it/s]Evaluating samples:  32%|███▎      | 65/200 [00:01<00:02, 67.26it/s]Evaluating samples:  40%|████      | 80/200 [00:01<00:01, 86.53it/s]Evaluating samples:  46%|████▌     | 91/200 [00:01<00:01, 85.17it/s]Evaluating samples:  50%|█████     | 101/200 [00:01<00:01, 79.71it/s]Evaluating samples:  55%|█████▌    | 110/200 [00:01<00:01, 78.96it/s]Evaluating samples:  62%|██████▎   | 125/200 [00:01<00:00, 91.37it/s]Evaluating samples:  68%|██████▊   | 135/200 [00:02<00:00, 93.13it/s]Evaluating samples:  74%|███████▎  | 147/200 [00:02<00:00, 84.59it/s]Evaluating samples:  78%|███████▊  | 156/200 [00:02<00:00, 85.18it/s]Evaluating samples:  83%|████████▎ | 166/200 [00:02<00:00, 88.20it/s]Evaluating samples:  88%|████████▊ | 176/200 [00:02<00:00, 90.25it/s]Evaluating samples:  93%|█████████▎| 186/200 [00:02<00:00, 84.99it/s]Evaluating samples:  98%|█████████▊| 195/200 [00:02<00:00, 81.54it/s]Evaluating samples: 100%|██████████| 200/200 [00:03<00:00, 64.98it/s]
+Evaluation complete. Results saved.
+Detailed metrics: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_131628/qwen3_8B_sft_rl_710_hybrid_common_query_2kdataset_general_cate_4gpu_iter_0000059_qa_5x/2wiki/run_03/2wiki/2wiki_output_1_metrics.json
+Overall metrics: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_131628/qwen3_8B_sft_rl_710_hybrid_common_query_2kdataset_general_cate_4gpu_iter_0000059_qa_5x/2wiki/run_03/2wiki/2wiki_output_1_metrics_overall.json
+EM: 0.6450
+F1: 0.7145
+Valid answers: 199 of 200
+LLM Equal: 0.7100
+Avg tool calls: 2.60
+Python calls: 0.00
+Search calls (executed): 2.60
+Search tags: 2.67
+Tool usage rate: 1.00
+Tool productivity (M1*M2): 68.38
+Evaluation completed. Total time: 5.54 seconds
+
+===== Evaluation Summary =====
+em: 0.6450
+acc: 0.7100
+f1: 0.7145
+math_equal: 0.6450
+num_valid_answer: 199 of 200
+tool_productivity: 68.3752
+average_datas_used_tool_number: 1.0000
+tool_call: 2.6050
+average_tool_tag_count: 2.6700
+average_python_calls: 0.0000
+average_search_calls: 2.6050
+average_executed_search_calls: 2.6050
+average_search_tag_count: 2.6700
+llm_equal: 0.7100
+m1m2: 68.3752
+datetime: 2026-07-11 22:57:37

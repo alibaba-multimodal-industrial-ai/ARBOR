@@ -1,0 +1,39 @@
+Model output file path: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_130354/qwen3_8B_sft_rl_709_2kdataset_general_cate_rho010_iter_0000059_qa_5x/2wiki/run_01/2wiki/2wiki_output_1.json
+Loading data...
+Data loading completed. Total 200 samples. Time taken: 1.23 seconds
+Detailed metrics path: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_130354/qwen3_8B_sft_rl_709_2kdataset_general_cate_rho010_iter_0000059_qa_5x/2wiki/run_01/2wiki/2wiki_output_1_metrics.json
+Overall metrics path: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_130354/qwen3_8B_sft_rl_709_2kdataset_general_cate_rho010_iter_0000059_qa_5x/2wiki/run_01/2wiki/2wiki_output_1_metrics_overall.json
+Starting evaluation of 200 samples, task type: qa
+Evaluating samples:   0%|          | 0/200 [00:00<?, ?it/s]Evaluating samples:   0%|          | 1/200 [00:00<03:15,  1.02it/s]Evaluating samples:   2%|▎         | 5/200 [00:01<00:33,  5.84it/s]Evaluating samples:   6%|▌         | 12/200 [00:01<00:12, 15.44it/s]Evaluating samples:  12%|█▎        | 25/200 [00:01<00:05, 34.17it/s]Evaluating samples:  22%|██▏       | 44/200 [00:01<00:02, 62.14it/s]Evaluating samples:  27%|██▋       | 54/200 [00:01<00:02, 67.77it/s]Evaluating samples:  32%|███▏      | 64/200 [00:01<00:02, 67.08it/s]Evaluating samples:  36%|███▋      | 73/200 [00:01<00:01, 68.63it/s]Evaluating samples:  41%|████      | 82/200 [00:01<00:01, 69.70it/s]Evaluating samples:  48%|████▊     | 95/200 [00:02<00:01, 78.59it/s]Evaluating samples:  52%|█████▏    | 104/200 [00:02<00:01, 75.29it/s]Evaluating samples:  56%|█████▌    | 112/200 [00:02<00:01, 70.46it/s]Evaluating samples:  60%|██████    | 120/200 [00:02<00:01, 61.13it/s]Evaluating samples:  66%|██████▌   | 132/200 [00:02<00:00, 74.25it/s]Evaluating samples:  70%|███████   | 141/200 [00:02<00:00, 74.59it/s]Evaluating samples:  74%|███████▍  | 149/200 [00:02<00:00, 75.92it/s]Evaluating samples:  78%|███████▊  | 157/200 [00:02<00:00, 70.58it/s]Evaluating samples:  82%|████████▎ | 165/200 [00:03<00:00, 55.28it/s]Evaluating samples:  86%|████████▌ | 172/200 [00:06<00:03,  8.30it/s]Evaluating samples:  88%|████████▊ | 177/200 [00:06<00:02,  9.41it/s]Evaluating samples:  90%|█████████ | 181/200 [00:06<00:02,  9.05it/s]Evaluating samples:  92%|█████████▏| 184/200 [00:07<00:01,  9.15it/s]Evaluating samples:  94%|█████████▎| 187/200 [00:07<00:01, 10.05it/s]Evaluating samples:  95%|█████████▌| 190/200 [00:08<00:01,  7.99it/s]Evaluating samples:  96%|█████████▌| 192/200 [00:08<00:01,  7.95it/s]Evaluating samples:  97%|█████████▋| 194/200 [00:08<00:00,  8.71it/s]Evaluating samples:  98%|█████████▊| 197/200 [00:08<00:00, 10.83it/s]Evaluating samples: 100%|██████████| 200/200 [00:09<00:00,  8.48it/s]Evaluating samples: 100%|██████████| 200/200 [00:09<00:00, 22.05it/s]
+Evaluation complete. Results saved.
+Detailed metrics: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_130354/qwen3_8B_sft_rl_709_2kdataset_general_cate_rho010_iter_0000059_qa_5x/2wiki/run_01/2wiki/2wiki_output_1_metrics.json
+Overall metrics: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_130354/qwen3_8B_sft_rl_709_2kdataset_general_cate_rho010_iter_0000059_qa_5x/2wiki/run_01/2wiki/2wiki_output_1_metrics_overall.json
+EM: 0.6250
+F1: 0.6966
+Valid answers: 200 of 200
+LLM Equal: 0.6900
+Avg tool calls: 2.48
+Python calls: 0.00
+Search calls (executed): 2.48
+Search tags: 2.52
+Tool usage rate: 1.00
+Tool productivity (M1*M2): 66.33
+Evaluation completed. Total time: 12.74 seconds
+
+===== Evaluation Summary =====
+em: 0.6250
+acc: 0.6850
+f1: 0.6966
+math_equal: 0.6250
+num_valid_answer: 200 of 200
+tool_productivity: 66.3308
+average_datas_used_tool_number: 1.0000
+tool_call: 2.4850
+average_tool_tag_count: 2.5200
+average_python_calls: 0.0000
+average_search_calls: 2.4850
+average_executed_search_calls: 2.4850
+average_search_tag_count: 2.5200
+llm_equal: 0.6900
+m1m2: 66.3308
+datetime: 2026-07-11 21:22:38

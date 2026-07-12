@@ -1,0 +1,39 @@
+Model output file path: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_130354/qwen3_8B_sft_rl_709_2kdataset_general_cate_var010_iter_0000059_qa_5x/musique/run_03/musique/musique_output_1.json
+Loading data...
+Data loading completed. Total 200 samples. Time taken: 1.73 seconds
+Detailed metrics path: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_130354/qwen3_8B_sft_rl_709_2kdataset_general_cate_var010_iter_0000059_qa_5x/musique/run_03/musique/musique_output_1_metrics.json
+Overall metrics path: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_130354/qwen3_8B_sft_rl_709_2kdataset_general_cate_var010_iter_0000059_qa_5x/musique/run_03/musique/musique_output_1_metrics_overall.json
+Starting evaluation of 200 samples, task type: qa
+Evaluating samples:   0%|          | 0/200 [00:00<?, ?it/s]Evaluating samples:   0%|          | 1/200 [00:00<00:31,  6.25it/s]Evaluating samples:   3%|▎         | 6/200 [00:00<00:21,  9.14it/s]Evaluating samples:   8%|▊         | 16/200 [00:00<00:07, 25.90it/s]Evaluating samples:  13%|█▎        | 26/200 [00:00<00:04, 39.51it/s]Evaluating samples:  23%|██▎       | 46/200 [00:01<00:02, 73.26it/s]Evaluating samples:  28%|██▊       | 57/200 [00:01<00:01, 76.48it/s]Evaluating samples:  34%|███▎      | 67/200 [00:01<00:01, 77.73it/s]Evaluating samples:  38%|███▊      | 77/200 [00:01<00:01, 64.19it/s]Evaluating samples:  42%|████▎     | 85/200 [00:01<00:01, 64.41it/s]Evaluating samples:  46%|████▋     | 93/200 [00:01<00:01, 67.28it/s]Evaluating samples:  52%|█████▏    | 103/200 [00:01<00:01, 72.89it/s]Evaluating samples:  56%|█████▌    | 111/200 [00:02<00:01, 62.51it/s]Evaluating samples:  59%|█████▉    | 118/200 [00:02<00:01, 63.47it/s]Evaluating samples:  62%|██████▎   | 125/200 [00:02<00:01, 60.71it/s]Evaluating samples:  66%|██████▋   | 133/200 [00:02<00:01, 62.19it/s]Evaluating samples:  70%|███████   | 140/200 [00:02<00:00, 61.93it/s]Evaluating samples:  74%|███████▎  | 147/200 [00:02<00:00, 63.20it/s]Evaluating samples:  77%|███████▋  | 154/200 [00:02<00:00, 55.14it/s]Evaluating samples:  81%|████████  | 162/200 [00:02<00:00, 60.60it/s]Evaluating samples:  84%|████████▍ | 169/200 [00:02<00:00, 60.55it/s]Evaluating samples:  88%|████████▊ | 176/200 [00:03<00:00, 58.91it/s]Evaluating samples:  92%|█████████▏| 183/200 [00:03<00:00, 47.04it/s]Evaluating samples:  94%|█████████▍| 189/200 [00:06<00:01,  6.22it/s]Evaluating samples:  96%|█████████▋| 193/200 [00:10<00:02,  3.07it/s]Evaluating samples:  98%|█████████▊| 196/200 [00:11<00:01,  2.96it/s]Evaluating samples:  99%|█████████▉| 198/200 [00:11<00:00,  3.29it/s]Evaluating samples: 100%|██████████| 200/200 [00:12<00:00,  3.29it/s]Evaluating samples: 100%|██████████| 200/200 [00:12<00:00, 15.95it/s]
+Evaluation complete. Results saved.
+Detailed metrics: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_130354/qwen3_8B_sft_rl_709_2kdataset_general_cate_var010_iter_0000059_qa_5x/musique/run_03/musique/musique_output_1_metrics.json
+Overall metrics: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_130354/qwen3_8B_sft_rl_709_2kdataset_general_cate_var010_iter_0000059_qa_5x/musique/run_03/musique/musique_output_1_metrics_overall.json
+EM: 0.1750
+F1: 0.2588
+Valid answers: 190 of 200
+LLM Equal: 0.2600
+Avg tool calls: 3.77
+Python calls: 0.00
+Search calls (executed): 3.77
+Search tags: 3.96
+Tool usage rate: 0.99
+Tool productivity (M1*M2): 25.33
+Evaluation completed. Total time: 17.14 seconds
+
+===== Evaluation Summary =====
+em: 0.1750
+acc: 0.1900
+f1: 0.2588
+math_equal: 0.1750
+num_valid_answer: 190 of 200
+tool_productivity: 25.3273
+average_datas_used_tool_number: 0.9900
+tool_call: 3.7650
+average_tool_tag_count: 3.9550
+average_python_calls: 0.0000
+average_search_calls: 3.7650
+average_executed_search_calls: 3.7650
+average_search_tag_count: 3.9550
+llm_equal: 0.2600
+m1m2: 25.3273
+datetime: 2026-07-12 00:20:35

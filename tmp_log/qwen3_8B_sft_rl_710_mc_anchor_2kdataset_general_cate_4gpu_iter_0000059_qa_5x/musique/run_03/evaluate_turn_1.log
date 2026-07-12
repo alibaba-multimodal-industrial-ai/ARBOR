@@ -1,0 +1,39 @@
+Model output file path: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_131628/qwen3_8B_sft_rl_710_mc_anchor_2kdataset_general_cate_4gpu_iter_0000059_qa_5x/musique/run_03/musique/musique_output_1.json
+Loading data...
+Data loading completed. Total 200 samples. Time taken: 1.52 seconds
+Detailed metrics path: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_131628/qwen3_8B_sft_rl_710_mc_anchor_2kdataset_general_cate_4gpu_iter_0000059_qa_5x/musique/run_03/musique/musique_output_1_metrics.json
+Overall metrics path: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_131628/qwen3_8B_sft_rl_710_mc_anchor_2kdataset_general_cate_4gpu_iter_0000059_qa_5x/musique/run_03/musique/musique_output_1_metrics_overall.json
+Starting evaluation of 200 samples, task type: qa
+Evaluating samples:   0%|          | 0/200 [00:00<?, ?it/s]Evaluating samples:   0%|          | 1/200 [00:00<01:14,  2.67it/s]Evaluating samples:   1%|          | 2/200 [00:00<01:16,  2.57it/s]Evaluating samples:   4%|▎         | 7/200 [00:00<00:18, 10.42it/s]Evaluating samples:  10%|█         | 20/200 [00:01<00:05, 32.57it/s]Evaluating samples:  14%|█▍        | 28/200 [00:01<00:04, 41.98it/s]Evaluating samples:  21%|██        | 42/200 [00:01<00:02, 60.22it/s]Evaluating samples:  26%|██▌       | 51/200 [00:01<00:02, 66.98it/s]Evaluating samples:  31%|███       | 62/200 [00:01<00:01, 76.86it/s]Evaluating samples:  36%|███▌      | 71/200 [00:01<00:01, 78.37it/s]Evaluating samples:  41%|████      | 82/200 [00:01<00:01, 85.15it/s]Evaluating samples:  46%|████▌     | 92/200 [00:01<00:01, 70.75it/s]Evaluating samples:  50%|█████     | 101/200 [00:01<00:01, 72.14it/s]Evaluating samples:  59%|█████▉    | 118/200 [00:02<00:00, 93.75it/s]Evaluating samples:  64%|██████▍   | 129/200 [00:02<00:00, 84.98it/s]Evaluating samples:  70%|██████▉   | 139/200 [00:02<00:01, 60.39it/s]Evaluating samples:  74%|███████▎  | 147/200 [00:02<00:00, 55.94it/s]Evaluating samples:  78%|███████▊  | 157/200 [00:02<00:00, 63.09it/s]Evaluating samples:  82%|████████▎ | 165/200 [00:03<00:00, 53.24it/s]Evaluating samples:  86%|████████▌ | 172/200 [00:03<00:00, 53.68it/s]Evaluating samples:  89%|████████▉ | 178/200 [00:03<00:00, 40.42it/s]Evaluating samples:  92%|█████████▏| 183/200 [00:05<00:01, 10.02it/s]Evaluating samples:  94%|█████████▎| 187/200 [00:06<00:01,  8.10it/s]Evaluating samples:  95%|█████████▌| 190/200 [00:06<00:01,  8.29it/s]Evaluating samples:  96%|█████████▋| 193/200 [00:07<00:00,  7.26it/s]Evaluating samples:  98%|█████████▊| 195/200 [00:07<00:00,  7.95it/s]Evaluating samples: 100%|█████████▉| 199/200 [00:07<00:00,  9.53it/s]Evaluating samples: 100%|██████████| 200/200 [00:07<00:00, 26.07it/s]
+Evaluation complete. Results saved.
+Detailed metrics: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_131628/qwen3_8B_sft_rl_710_mc_anchor_2kdataset_general_cate_4gpu_iter_0000059_qa_5x/musique/run_03/musique/musique_output_1_metrics.json
+Overall metrics: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_131628/qwen3_8B_sft_rl_710_mc_anchor_2kdataset_general_cate_4gpu_iter_0000059_qa_5x/musique/run_03/musique/musique_output_1_metrics_overall.json
+EM: 0.1700
+F1: 0.2558
+Valid answers: 191 of 200
+LLM Equal: 0.2500
+Avg tool calls: 3.98
+Python calls: 0.00
+Search calls (executed): 3.98
+Search tags: 4.18
+Tool usage rate: 0.98
+Tool productivity (M1*M2): 24.39
+Evaluation completed. Total time: 12.13 seconds
+
+===== Evaluation Summary =====
+em: 0.1700
+acc: 0.1850
+f1: 0.2558
+math_equal: 0.1700
+num_valid_answer: 191 of 200
+tool_productivity: 24.3880
+average_datas_used_tool_number: 0.9850
+tool_call: 3.9850
+average_tool_tag_count: 4.1800
+average_python_calls: 0.0000
+average_search_calls: 3.9850
+average_executed_search_calls: 3.9850
+average_search_tag_count: 4.1800
+llm_equal: 0.2500
+m1m2: 24.3880
+datetime: 2026-07-12 10:45:41

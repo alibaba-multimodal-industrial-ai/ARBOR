@@ -1,0 +1,39 @@
+Model output file path: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_131628/qwen3_8B_sft_rl_710_mc_anchor_2kdataset_general_cate_4gpu_iter_0000059_qa_5x/bamboogle/run_02/bamboogle/bamboogle_output_1.json
+Loading data...
+Data loading completed. Total 125 samples. Time taken: 0.72 seconds
+Detailed metrics path: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_131628/qwen3_8B_sft_rl_710_mc_anchor_2kdataset_general_cate_4gpu_iter_0000059_qa_5x/bamboogle/run_02/bamboogle/bamboogle_output_1_metrics.json
+Overall metrics path: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_131628/qwen3_8B_sft_rl_710_mc_anchor_2kdataset_general_cate_4gpu_iter_0000059_qa_5x/bamboogle/run_02/bamboogle/bamboogle_output_1_metrics_overall.json
+Starting evaluation of 125 samples, task type: qa
+Evaluating samples:   0%|          | 0/125 [00:00<?, ?it/s]Evaluating samples:   1%|          | 1/125 [00:00<01:08,  1.81it/s]Evaluating samples:   4%|▍         | 5/125 [00:00<00:13,  9.05it/s]Evaluating samples:   8%|▊         | 10/125 [00:00<00:06, 17.72it/s]Evaluating samples:  16%|█▌        | 20/125 [00:00<00:02, 36.65it/s]Evaluating samples:  35%|███▌      | 44/125 [00:00<00:00, 86.29it/s]Evaluating samples:  45%|████▍     | 56/125 [00:01<00:00, 78.40it/s]Evaluating samples:  54%|█████▎    | 67/125 [00:01<00:00, 66.81it/s]Evaluating samples:  62%|██████▏   | 77/125 [00:01<00:00, 73.21it/s]Evaluating samples:  69%|██████▉   | 86/125 [00:01<00:00, 69.65it/s]Evaluating samples:  75%|███████▌  | 94/125 [00:01<00:00, 63.59it/s]Evaluating samples:  88%|████████▊ | 110/125 [00:01<00:00, 81.50it/s]Evaluating samples:  96%|█████████▌| 120/125 [00:02<00:00, 73.10it/s]Evaluating samples: 100%|██████████| 125/125 [00:02<00:00, 55.21it/s]
+Evaluation complete. Results saved.
+Detailed metrics: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_131628/qwen3_8B_sft_rl_710_mc_anchor_2kdataset_general_cate_4gpu_iter_0000059_qa_5x/bamboogle/run_02/bamboogle/bamboogle_output_1_metrics.json
+Overall metrics: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_131628/qwen3_8B_sft_rl_710_mc_anchor_2kdataset_general_cate_4gpu_iter_0000059_qa_5x/bamboogle/run_02/bamboogle/bamboogle_output_1_metrics_overall.json
+EM: 0.6000
+F1: 0.7086
+Valid answers: 123 of 125
+LLM Equal: 0.7520
+Avg tool calls: 3.01
+Python calls: 0.00
+Search calls (executed): 3.01
+Search tags: 3.10
+Tool usage rate: 1.00
+Tool productivity (M1*M2): 72.78
+Evaluation completed. Total time: 5.65 seconds
+
+===== Evaluation Summary =====
+em: 0.6000
+acc: 0.6400
+f1: 0.7086
+math_equal: 0.6000
+num_valid_answer: 123 of 125
+tool_productivity: 72.7804
+average_datas_used_tool_number: 1.0000
+tool_call: 3.0080
+average_tool_tag_count: 3.0960
+average_python_calls: 0.0000
+average_search_calls: 3.0080
+average_executed_search_calls: 3.0080
+average_search_tag_count: 3.0960
+llm_equal: 0.7520
+m1m2: 72.7804
+datetime: 2026-07-12 09:28:30

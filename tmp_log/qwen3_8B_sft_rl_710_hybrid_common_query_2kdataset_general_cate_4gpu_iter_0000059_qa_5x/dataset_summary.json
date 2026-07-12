@@ -1,0 +1,54 @@
+[
+  {
+    "dataset": "2wiki",
+    "turn": 1,
+    "runs": 3,
+    "samples_per_run": 200,
+    "normal_output_ratio_mean": 0.995,
+    "normal_output_ratio_std": 0.004082482904638634,
+    "valid_answer_ratio_mean": 0.995,
+    "valid_answer_ratio_std": 0.004082482904638634,
+    "final_correctness_mean": 0.73,
+    "final_correctness_std": 0.016329931618554536,
+    "final_metric": "llm_equal"
+  },
+  {
+    "dataset": "bamboogle",
+    "turn": 1,
+    "runs": 3,
+    "samples_per_run": 125,
+    "normal_output_ratio_mean": 0.9893333333333333,
+    "normal_output_ratio_std": 0.007542472332656513,
+    "valid_answer_ratio_mean": 0.9893333333333333,
+    "valid_answer_ratio_std": 0.007542472332656513,
+    "final_correctness_mean": 0.6960000000000001,
+    "final_correctness_std": 0.023551362310207564,
+    "final_metric": "llm_equal"
+  },
+  {
+    "dataset": "hotpotqa",
+    "turn": 1,
+    "runs": 3,
+    "samples_per_run": 200,
+    "normal_output_ratio_mean": 0.975,
+    "normal_output_ratio_std": 0.007071067811865482,
+    "valid_answer_ratio_mean": 0.975,
+    "valid_answer_ratio_std": 0.007071067811865482,
+    "final_correctness_mean": 0.6,
+    "final_correctness_std": 0.007071067811865482,
+    "final_metric": "llm_equal"
+  },
+  {
+    "dataset": "musique",
+    "turn": 1,
+    "runs": 3,
+    "samples_per_run": 200,
+    "normal_output_ratio_mean": 0.8966666666666666,
+    "normal_output_ratio_std": 0.023213980461973552,
+    "valid_answer_ratio_mean": 0.8966666666666666,
+    "valid_answer_ratio_std": 0.023213980461973552,
+    "final_correctness_mean": 0.28833333333333333,
+    "final_correctness_std": 0.011785113019775776,
+    "final_metric": "llm_equal"
+  }
+]

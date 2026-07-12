@@ -1,0 +1,39 @@
+Model output file path: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_130354/qwen3_8B_sft_rl_709_2kdataset_general_cate_var010_iter_0000059_qa_5x/musique/run_02/musique/musique_output_1.json
+Loading data...
+Data loading completed. Total 200 samples. Time taken: 1.61 seconds
+Detailed metrics path: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_130354/qwen3_8B_sft_rl_709_2kdataset_general_cate_var010_iter_0000059_qa_5x/musique/run_02/musique/musique_output_1_metrics.json
+Overall metrics path: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_130354/qwen3_8B_sft_rl_709_2kdataset_general_cate_var010_iter_0000059_qa_5x/musique/run_02/musique/musique_output_1_metrics_overall.json
+Starting evaluation of 200 samples, task type: qa
+Evaluating samples:   0%|          | 0/200 [00:00<?, ?it/s]Evaluating samples:   0%|          | 1/200 [00:00<00:31,  6.38it/s]Evaluating samples:   1%|          | 2/200 [00:03<06:50,  2.07s/it]Evaluating samples:   2%|▏         | 3/200 [00:03<03:55,  1.19s/it]Evaluating samples:   4%|▎         | 7/200 [00:03<01:07,  2.84it/s]Evaluating samples:   5%|▌         | 10/200 [00:03<00:41,  4.56it/s]Evaluating samples:   6%|▌         | 12/200 [00:05<01:16,  2.45it/s]Evaluating samples:  10%|█         | 20/200 [00:05<00:28,  6.21it/s]Evaluating samples:  13%|█▎        | 26/200 [00:06<00:19,  9.15it/s]Evaluating samples:  15%|█▌        | 30/200 [00:06<00:15, 11.13it/s]Evaluating samples:  18%|█▊        | 35/200 [00:06<00:11, 14.53it/s]Evaluating samples:  20%|█▉        | 39/200 [00:06<00:10, 15.27it/s]Evaluating samples:  21%|██        | 42/200 [00:06<00:09, 16.24it/s]Evaluating samples:  22%|██▎       | 45/200 [00:07<00:11, 13.20it/s]Evaluating samples:  24%|██▍       | 48/200 [00:08<00:28,  5.28it/s]Evaluating samples:  25%|██▌       | 50/200 [00:09<00:31,  4.80it/s]Evaluating samples:  26%|██▌       | 52/200 [00:09<00:31,  4.73it/s]Evaluating samples:  26%|██▋       | 53/200 [00:09<00:33,  4.42it/s]Evaluating samples:  27%|██▋       | 54/200 [00:11<01:01,  2.38it/s]Evaluating samples:  28%|██▊       | 55/200 [00:11<00:53,  2.70it/s]Evaluating samples:  28%|██▊       | 56/200 [00:11<00:47,  3.06it/s]Evaluating samples:  30%|███       | 61/200 [00:11<00:20,  6.92it/s]Evaluating samples:  34%|███▎      | 67/200 [00:11<00:10, 12.31it/s]Evaluating samples:  35%|███▌      | 70/200 [00:11<00:08, 14.53it/s]Evaluating samples:  36%|███▋      | 73/200 [00:12<00:07, 16.33it/s]Evaluating samples:  40%|████      | 80/200 [00:12<00:05, 22.36it/s]Evaluating samples:  42%|████▏     | 84/200 [00:12<00:04, 24.19it/s]Evaluating samples:  44%|████▍     | 88/200 [00:12<00:04, 27.18it/s]Evaluating samples:  46%|████▌     | 92/200 [00:12<00:04, 26.54it/s]Evaluating samples:  48%|████▊     | 96/200 [00:13<00:05, 18.05it/s]Evaluating samples:  50%|████▉     | 99/200 [00:14<00:16,  6.12it/s]Evaluating samples:  50%|█████     | 101/200 [00:14<00:14,  6.92it/s]Evaluating samples:  52%|█████▏    | 103/200 [00:15<00:14,  6.92it/s]Evaluating samples:  52%|█████▎    | 105/200 [00:15<00:12,  7.66it/s]Evaluating samples:  54%|█████▎    | 107/200 [00:15<00:11,  7.88it/s]Evaluating samples:  55%|█████▍    | 109/200 [00:16<00:25,  3.62it/s]Evaluating samples:  56%|█████▌    | 111/200 [00:16<00:19,  4.48it/s]Evaluating samples:  56%|█████▌    | 112/200 [00:17<00:18,  4.87it/s]Evaluating samples:  56%|█████▋    | 113/200 [00:17<00:16,  5.23it/s]Evaluating samples:  57%|█████▋    | 114/200 [00:17<00:16,  5.34it/s]Evaluating samples:  58%|█████▊    | 116/200 [00:17<00:11,  7.26it/s]Evaluating samples:  60%|█████▉    | 119/200 [00:17<00:07, 10.65it/s]Evaluating samples:  62%|██████▏   | 123/200 [00:17<00:05, 14.37it/s]Evaluating samples:  62%|██████▎   | 125/200 [00:17<00:05, 13.29it/s]Evaluating samples:  64%|██████▍   | 128/200 [00:18<00:04, 15.36it/s]Evaluating samples:  66%|██████▌   | 132/200 [00:18<00:03, 19.34it/s]Evaluating samples:  68%|██████▊   | 136/200 [00:18<00:02, 23.52it/s]Evaluating samples:  70%|██████▉   | 139/200 [00:20<00:15,  3.90it/s]Evaluating samples:  70%|███████   | 141/200 [00:21<00:16,  3.64it/s]Evaluating samples:  72%|███████▏  | 143/200 [00:23<00:24,  2.35it/s]Evaluating samples:  72%|███████▎  | 145/200 [00:23<00:18,  2.98it/s]Evaluating samples:  74%|███████▎  | 147/200 [00:23<00:14,  3.57it/s]Evaluating samples:  78%|███████▊  | 155/200 [00:23<00:05,  8.30it/s]Evaluating samples:  80%|████████  | 160/200 [00:23<00:03, 11.46it/s]Evaluating samples:  82%|████████▏ | 164/200 [00:24<00:02, 12.93it/s]Evaluating samples:  84%|████████▎ | 167/200 [00:24<00:02, 14.51it/s]Evaluating samples:  85%|████████▌ | 170/200 [00:24<00:01, 15.98it/s]Evaluating samples:  86%|████████▋ | 173/200 [00:24<00:01, 16.91it/s]Evaluating samples:  88%|████████▊ | 176/200 [00:26<00:05,  4.54it/s]Evaluating samples:  89%|████████▉ | 178/200 [00:26<00:04,  5.11it/s]Evaluating samples:  90%|█████████ | 180/200 [00:27<00:05,  3.92it/s]Evaluating samples:  91%|█████████ | 182/200 [00:29<00:08,  2.23it/s]Evaluating samples:  92%|█████████▏| 184/200 [00:30<00:06,  2.49it/s]Evaluating samples:  92%|█████████▎| 185/200 [00:30<00:06,  2.48it/s]Evaluating samples:  93%|█████████▎| 186/200 [00:32<00:08,  1.62it/s]Evaluating samples:  94%|█████████▎| 187/200 [00:35<00:14,  1.15s/it]Evaluating samples:  94%|█████████▍| 188/200 [00:35<00:11,  1.03it/s]Evaluating samples:  94%|█████████▍| 189/200 [00:35<00:08,  1.32it/s]Evaluating samples:  95%|█████████▌| 190/200 [00:36<00:07,  1.30it/s]Evaluating samples:  96%|█████████▌| 191/200 [00:36<00:05,  1.61it/s]Evaluating samples:  96%|█████████▌| 192/200 [00:37<00:05,  1.50it/s]Evaluating samples:  96%|█████████▋| 193/200 [00:38<00:04,  1.55it/s]Evaluating samples:  97%|█████████▋| 194/200 [00:38<00:03,  1.75it/s]Evaluating samples:  98%|█████████▊| 195/200 [00:39<00:03,  1.59it/s]Evaluating samples:  98%|█████████▊| 196/200 [00:41<00:04,  1.03s/it]Evaluating samples:  98%|█████████▊| 197/200 [00:41<00:02,  1.24it/s]Evaluating samples:  99%|█████████▉| 198/200 [00:42<00:01,  1.50it/s]Evaluating samples: 100%|█████████▉| 199/200 [00:42<00:00,  1.67it/s]Evaluating samples: 100%|██████████| 200/200 [00:43<00:00,  1.25it/s]Evaluating samples: 100%|██████████| 200/200 [00:43<00:00,  4.57it/s]
+Evaluation complete. Results saved.
+Detailed metrics: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_130354/qwen3_8B_sft_rl_709_2kdataset_general_cate_var010_iter_0000059_qa_5x/musique/run_02/musique/musique_output_1_metrics.json
+Overall metrics: /data/oss_bucket_0/users/liuzheng/resources_open/benchmark_eval_result/multi_model_qa_5x/20260711_130354/qwen3_8B_sft_rl_709_2kdataset_general_cate_var010_iter_0000059_qa_5x/musique/run_02/musique/musique_output_1_metrics_overall.json
+EM: 0.1650
+F1: 0.2658
+Valid answers: 188 of 200
+LLM Equal: 0.2650
+Avg tool calls: 3.56
+Python calls: 0.00
+Search calls (executed): 3.56
+Search tags: 3.77
+Tool usage rate: 0.98
+Tool productivity (M1*M2): 25.78
+Evaluation completed. Total time: 47.86 seconds
+
+===== Evaluation Summary =====
+em: 0.1650
+acc: 0.2000
+f1: 0.2658
+math_equal: 0.1650
+num_valid_answer: 188 of 200
+tool_productivity: 25.7769
+average_datas_used_tool_number: 0.9850
+tool_call: 3.5650
+average_tool_tag_count: 3.7700
+average_python_calls: 0.0000
+average_search_calls: 3.5650
+average_executed_search_calls: 3.5650
+average_search_tag_count: 3.7700
+llm_equal: 0.2650
+m1m2: 25.7769
+datetime: 2026-07-12 00:03:06
